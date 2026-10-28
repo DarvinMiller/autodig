@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "autodig",
+  "version": "${version}",
+  "name": "AutoDig",
+  "description": "Автоматически вскапывает область между двумя отмеченными точками.",
+  "authors": ["kabanin"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.autodig.AutoDig"],
+    "client": ["com.autodig.client.AutoDigClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.19.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
