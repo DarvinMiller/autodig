@@ -1,0 +1,6 @@
+{
+  "category.autodig": "AutoDig",
+  "key.autodig.pos1": "Point 1 (Shift - clear)",
+  "key.autodig.pos2": "Point 2 (Shift - clear)",
+  "key.autodig.toggle": "Start / stop digging"
+}
